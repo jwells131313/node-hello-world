@@ -34,7 +34,7 @@ test-unit:
           ls -la /pipeline/source/node_modules/.bin
     - script:
       name: install dependencies
-      code: yarn
+      code: yarn --check-files
     - script:
       name: ls
       code: |
